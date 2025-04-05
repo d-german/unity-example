@@ -12,6 +12,9 @@
 .idea/**/dictionaries
 .idea/**/shelf
 
+.idea/
+
+
 # AWS User-specific
 .idea/**/aws.xml
 
@@ -567,3 +570,18 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/unity,jetbrains+all,visualstudiocode,visualstudio
+
+# Unity generated folders (should be ignored)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# Ignore common generated binary and cache files
+*.bin
+*.bhc
+*.gbc
+
